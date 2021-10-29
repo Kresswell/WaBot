@@ -1,0 +1,11 @@
+{
+  "name": "Bot",
+  "description": "Lightweight WhatsApp Bot",
+  "repository": "https://github.com/SudoAnirudh/E-V-A/",
+  "logo": "https://i.imgur.com/SiMhQ9z.jpg",
+  "keywords": [
+    "bot",
+    "whatsapp",
+    "whatsapp-bot"
+  ]
+}
