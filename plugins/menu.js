@@ -98,12 +98,12 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
   }
   if (teks == 'vote') tags = {
     'vote': '𝐕𝐨𝐭𝐢𝐧𝐠',
-    'absen': 'Absen'
+    'absen': '𝐀𝐛𝐬𝐞𝐧'
   }
   if (teks == 'owner') tags = {
     'owner': '𝐎𝐰𝐧𝐞𝐫',
-    'host': 'Host',
-    'advanced': 'Advanced'
+    'host': '𝐇𝐨𝐬𝐭',
+    'advanced': '𝐀𝐝𝐯𝐚𝐧𝐜𝐞𝐝'
   }
 
 

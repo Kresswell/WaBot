@@ -32,8 +32,8 @@ handler.all = async function (m, { isBlocked }) {
 ├ 
 └────
 
-https://github.com/SudoAnirudh/E-V-A
-`.trim(), '© Eva', 'Bot Owner', ',owner', m)
+https://github.com/sonycovery/whatsapp-bot
+`.trim(), '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮', 'Bot Owner', ',owner', m)
     }
 
 
@@ -57,7 +57,7 @@ https://github.com/SudoAnirudh/E-V-A
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | Eva by Anirudh`).catch(_ => _)
+        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | 𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮`).catch(_ => _)
         setting.status = new Date() * 1
     }
 

@@ -36,7 +36,7 @@ global.author = '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮'
 
 global.wait = '_𝐖𝐚𝐢𝐭 𝐚 𝐦𝐢𝐧𝐮𝐭𝐞 ⏳_'
 global.eror = '_*𝐒𝐞𝐫𝐯𝐞𝐫 𝐄𝐫𝐫𝐨𝐫*_'
-global.fla = 'https://ibb.co/jW31z7n'
+global.fla = 'https://i.imgur.com/SiMhQ9z.jpg'
 
 global.watermark = '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮'
 
