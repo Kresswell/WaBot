@@ -2,7 +2,7 @@ const { servers, yta, ytv } = require('../lib/y2mate')
 let yts = require('yt-search')
 let fetch = require('node-fetch')
 let handler = async (m, { conn, command, text, usedPrefix }) => {
-  if (!text) throw `uhm.. what are you looking for?\n\nexample:\n${usedPrefix + command} Only`
+  if (!text) throw `Hmmm..cari apa ngab?\n\nContoh:\n${usedPrefix + command} Only`
   let chat = global.db.data.chats[m.chat]
   let results = await yts(text)
   let vid = results.all.find(video => video.seconds < 3600)
@@ -22,8 +22,8 @@ let handler = async (m, { conn, command, text, usedPrefix }) => {
       m.reply(`Server ${server} error!${servers.length >= i + 1 ? '' : '\ntry another server...'}`)
     }
   }
-  if (yt === false) throw 'all servers fail'
-  if (yt2 === false) throw 'all servers fail'
+  if (yt === false) throw 'Semua server sedang gangguan'
+  if (yt2 === false) throw 'Semua server sedang gangguan'
   let { dl_link, thumb, title, filesize, filesizeF } = yt
   await conn.send2ButtonLoc(m.chat, await (await fetch(thumb)).buffer(), `
 *Title:* ${title}

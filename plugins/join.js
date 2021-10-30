@@ -2,7 +2,7 @@ let linkRegex = /chat.whatsapp.com\/([0-9A-Za-z]{20,24})/i
 
 let handler = async (m, { conn, text, usedPrefix }) => {
     let [_, code] = text.match(linkRegex) || []
-    if (!code) throw 'Wrong Link'
+    if (!code) throw 'Link Salah'
     let res = await conn.acceptInvite(code)
     m.reply(`Successfully joined the group ${res.gid}`).then(() => {
         var jumlahHari = 86400000 * 3
@@ -11,9 +11,9 @@ let handler = async (m, { conn, text, usedPrefix }) => {
         else global.db.data.chats[res.gid].expired = now + jumlahHari
     })
     conn.sendButton(res.gid, `
-*${conn.user.name}* is a whatsapp bot built with Nodejs, *${conn.user.name}* invited by @${m.sender.split`@`[0]}
+*${conn.user.name}* adalah bot whatsapp yang dibuat menggunakan Nodejs, *${conn.user.name}* diundang oleh @${m.sender.split`@`[0]}
     
-type *${usedPrefix}menu* to see a list of commands`.trim(), watermark, 'Menu', `${usedPrefix}?`, 0, { contextInfo: { mentionedJid: [m.sender] } })
+ketik *${usedPrefix}menu* untuk melihat seluruh perintah`.trim(), watermark, 'Menu', `${usedPrefix}?`, 0, { contextInfo: { mentionedJid: [m.sender] } })
 }
 handler.help = ['join <chat.whatsapp.com>']
 handler.tags = ['']

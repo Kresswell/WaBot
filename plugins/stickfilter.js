@@ -7,7 +7,7 @@ const effects = ['greyscale', 'invert', 'brightness', 'threshold', 'sepia', 'red
 let handler = async (m, { conn, usedPrefix, text, command }) => {
   let effect = text.trim().toLowerCase()
   if (!effects.includes(effect)) throw `
-┌─〔 List Effect 〕
+┌─〔 𝐋𝐢𝐬𝐭 𝐄𝐟𝐟𝐞𝐜𝐭 〕
 ${effects.map(effect => `├ ${effect}`).join('\n')}
 └────
 Example: 

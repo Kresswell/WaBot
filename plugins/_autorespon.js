@@ -14,8 +14,8 @@ handler.all = async function (m, { isBlocked }) {
     try {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
-                isBanned ? 'Eva is not active' : banned ? 'you are banned' : 'Eva here',
-                '© Eva',
+                isBanned ? 'Bot is not active' : banned ? 'you are banned' : 'Bot here',
+                '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮',
                 isBanned ? 'Unban' : banned ? 'Bot Owner' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Support',
@@ -27,7 +27,7 @@ handler.all = async function (m, { isBlocked }) {
 
     // ketika ada yang invite/kirim link grup di chat pribadi
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Open this link')) && !m.isBaileys && !m.isGroup) {
-        this.sendButton(m.chat, `┌〔 Invite Bots to Group 〕
+        this.sendButton(m.chat, `┌〔 𝐈𝐧𝐯𝐢𝐭𝐞 𝐁𝐨𝐭𝐬 𝐭𝐨 𝐆𝐫𝐨𝐮𝐩 〕
 ├ 
 ├ 
 └────
@@ -57,7 +57,7 @@ https://github.com/sonycovery/whatsapp-bot
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`Active during ${uptime} | Mode: ${global.opts['self'] ? 'Private' : setting.groupOnly ? 'Group Only' : 'Public'} | 𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮`).catch(_ => _)
+        await this.setStatus(`𝐔𝐩𝐭𝐢𝐦𝐞 ${uptime} | 𝐌𝐨𝐝𝐞: ${global.opts['𝐒𝐞𝐥𝐟'] ? '𝐏𝐫𝐢𝐯𝐚𝐭𝐞' : setting.groupOnly ? '𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲' : '𝐏𝐮𝐛𝐥𝐢𝐜'} | 𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
