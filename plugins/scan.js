@@ -2,8 +2,8 @@
 // https://github.com/TOXIC-DEVIL
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
-    if (!args || !args[0] || args.length === 0) throw `uhm.. which number?\n\nexample:\n${usedPrefix + command} 919539102851`
-    if (args[0].startsWith('0')) throw 'Use Country code!'
+    if (!args || !args[0] || args.length === 0) throw `Mention member/nomor yang akan di scan?\n\nContoh:\n${usedPrefix + command} 6281293836868`
+    if (args[0].startsWith('0')) throw 'Gunakan kode negara!'
     let user = await conn.isOnWhatsApp(args[0])
     let exists = user && user.exists ? true : false
     if (exists) {
@@ -29,7 +29,7 @@ let handler = async (m, { conn, args, usedPrefix, command }) => {
                 mentionedJid: conn.parseMention(str)
             }
         })
-    } else throw 'unregistered number'
+    } else throw 'Nomor tidak terdaftar'
 }
 
 handler.help = ['scan'].map(v => v + ' [number]')

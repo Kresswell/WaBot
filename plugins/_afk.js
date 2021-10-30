@@ -5,7 +5,7 @@ handler.before = m => {
     conn.send2Button(m.chat, `
 You quit AFK${user.afkReason ? ' after' + user.afkReason : ''}
 During ${clockString(new Date - user.afk)}
-`.trim(), watermark, 'MENU', '.menu', 'DASHBOARD', '.dashboard', m)
+`.trim(), watermark, '𝐌𝐞𝐧𝐮', '.menu', '𝐃𝐚𝐬𝐡𝐛𝐨𝐚𝐫𝐝', '.dashboard', m)
     user.afk = -1
     user.afkReason = ''
   }
@@ -17,9 +17,9 @@ During ${clockString(new Date - user.afk)}
     if (!afkTime || afkTime < 0) continue
     let reason = user.afkReason || ''
     m.reply(`
-Don't tag him!
-He's in AFK ${reason ? 'with reason ' + reason : 'no reason'}
-During ${clockString(new Date - afkTime)}
+Jangan tag dia!!!
+Dia lagi AFK ${reason ? 'with reason ' + reason : 'no reason'}
+Selama ${clockString(new Date - afkTime)}
 `.trim())
   }
   return true

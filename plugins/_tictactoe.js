@@ -10,7 +10,7 @@ handler.before = async function (m) {
     let isTie = !1
     let isSurrender = !1
     this.game = this.game ? this.game : {}
-    let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == 'PLAYING')
+    let room = Object.values(this.game).find(room => room.id && room.game && room.state && room.id.startsWith('tictactoe') && [room.game.playerX, room.game.playerO].includes(m.sender) && room.state == '𝐏𝐥𝐚𝐲𝐢𝐧𝐠')
     if (room) {
         // m.reply(`[DEBUG]\n${parseInt(m.text)}`)
         if (!/^([1-9]|(me)?give up|surrender)$/i.test(m.text)) return !0

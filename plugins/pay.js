@@ -11,7 +11,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
   if (typeof global.db.data.users[who] == "undefined") {
     global.db.data.users[who] = {
       exp: 0,
-      limit: 10,
+      limit: 5,
       lastclaim: 0,
       registered: false,
       name: conn.getName(m.sender),

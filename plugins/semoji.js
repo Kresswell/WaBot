@@ -8,7 +8,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
 *${usedPrefix}emo(space)ap(space)❤️*
 *${usedPrefix}emo ap ❤️*
 
-┌〔 Opsi 〕
+┌〔 𝐎𝐩𝐬𝐢 〕
 ├ ap = apple
 ├ fa = facebook
 ├ go = google
@@ -20,11 +20,7 @@ let handler = async (m, { conn, args, usedPrefix, command, isPrems }) => {
 ├ sa = samsung
 ├ tw = twitter
 ├ wh = whatsapp
-└────
-
-Can only 1 emoji, pay attention to spaces, don't spam!
-
-If you want to make a sticker, you can get 2/3 emoji? click http://wa.me/919539102851?text=%23stikeremoji`
+└────`
   if (!args[0]) throw er
 
   let template = (args[0] || '').toLowerCase()

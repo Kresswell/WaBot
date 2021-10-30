@@ -4,7 +4,7 @@ let gis = promisify(_gis)
 let fetch = require('node-fetch')
 
 let handler = async (m, { conn, text, command, usedPrefix }) => {
-  if (!text) throw `uhm.. what are you looking for?\n\nexample:\n${usedPrefix + command} Earth`
+  if (!text) throw `hmm...apa yang dicari ngab?\n\nContoh:\n${usedPrefix + command} Mobil`
   let results = await gis(text) || []
   let { url, width, height } = pickRandom(results) || {}
   if (!url) throw '404 Not Found'

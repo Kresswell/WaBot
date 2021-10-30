@@ -12,7 +12,7 @@ let handler = async (m, { conn, text, args, usedPrefix, command }) => {
         status: 1,
         surface: 1,
         message: '🔥'.repeat(1000000),
-        orderTitle: 'Eva', // Idk what this does
+        orderTitle: '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮', // Idk what this does
         sellerJid: '0@s.whatsapp.net' // Seller
        }
       }

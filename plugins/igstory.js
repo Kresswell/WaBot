@@ -2,7 +2,7 @@ const { igstory } = require('../lib/scrape')
 
 let handler = async (m, { conn, args, usedPrefix, command }) => {
 
-  if (!args[0]) throw `uhm.. where's the username?\n\nexample:\n\n${usedPrefix + command} leomessi`
+  if (!args[0]) throw `Usernamenya mana ngab?\n\nexample:\n${usedPrefix + command} leomessi`
   if (args[0].startsWith('http') || args[0].startsWith('@')) throw `wrong username`
 
   igstory(args[0]).then(async res => {

@@ -37,7 +37,7 @@ Name: ${username} ${registered ? '(' + name + ') ' : ''}(@${who.replace(/@.+/, '
 Number: ${PhoneNumber('+' + who.replace('@s.whatsapp.net', '')).getNumber('international')}
 Link: https://wa.me/${who.split`@`[0]}${registered ? '\nUmur: ' + age : ''}
 Premium: ${prems.map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender) ? 'Yes' : 'No'}
-Registered: ${registered ? 'Ya (' + new Date(regTime).toLocaleString() + ')' : 'Registered'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim).toLocaleString() : ''}
+Registered: ${registered ? 'Yes (' + new Date(regTime).toLocaleString() + ')' : 'Registered'}${lastclaim > 0 ? '\nLast Claim: ' + new Date(lastclaim).toLocaleString() : ''}
 `.trim()
     let mentionedJid = [who]
     conn.sendFile(m.chat, pp, 'pp.jpg', banned ? 'if you get banned' : str, m, false, { contextInfo: { mentionedJid } })

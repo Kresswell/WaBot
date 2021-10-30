@@ -19,7 +19,7 @@ let handler = async (m, { conn, participants, groupMetadata, text }) => {
 
         if (text) return m.reply(msToDate(expired - new Date() * 1))
 
-        let caption = `*Information Group*\n
+        let caption = `*𝐈𝐧𝐟𝐨𝐫𝐦𝐚𝐭𝐢𝐨𝐧 𝐆𝐫𝐨𝐮𝐩*\n
 *ID:* 
 ${groupMetadata.id}
 

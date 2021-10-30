@@ -6,14 +6,14 @@ let handler = async (m, { conn }) => {
     let uptime = clockString(_uptime)
 
     m.reply(`
-┌─〔 Status 〕
+┌─〔 𝐒𝐭𝐚𝐭𝐮𝐬 〕
 ├ *${groups.length}* Group
 ├ *${chats.length - groups.length}* Private Chat
 ├ *${Object.keys(global.db.data.users).length}* Users
 ├ *${conn.blocklist.length}* Blocked
 ├ *${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length}* Banned Chat
 ├ *${Object.entries(global.db.data.users).filter(user => user[1].banned).length}* Banned User
-└────
+└──────
     `.trim())
 }
 handler.help = ['botstatus']

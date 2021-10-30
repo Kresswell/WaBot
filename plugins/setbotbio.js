@@ -1,6 +1,6 @@
 // NurNurz
 let handler = async (m, { conn, text }) => {
-  if (!text) throw `uhm.. where's the text?`
+  if (!text) throw `Silahkan disertai dengan isi statusnya...`
   try {
     await conn.setStatus(text)
     m.reply('Succeed!')

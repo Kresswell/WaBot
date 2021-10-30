@@ -18,7 +18,7 @@ let handler = async function (m, { text, usedPrefix, command }) {
   m.reply(`
   Register successful!
 
-┌─〔 Info 〕
+┌─〔 𝐈𝐧𝐟𝐨 〕
 ├ Name: ${name}
 ├ Age: ${age} year
 ├ SN: ${sn}

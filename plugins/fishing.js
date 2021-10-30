@@ -64,7 +64,7 @@ let handler = async (m, { conn }) => {
       tampilanIkan += randIkan + " "
     }
 
-    conn.reply(m.chat, `*❏ FISHING MANIA*\n\nCatch : ${tampilanIkan}\nCongratulations you caught *${jumlahIkan} tail ${namaIkan}* with sales *Rp. ${Number(hargaIkan*jumlahIkan).toLocaleString()}*`, m)
+    conn.reply(m.chat, `*❏ 𝐅𝐈𝐒𝐇𝐈𝐍𝐆 𝐌𝐀𝐍𝐈𝐀*\n\nCatch : ${tampilanIkan}\nCongratulations you caught *${jumlahIkan} tail ${namaIkan}* with sales *Rp. ${Number(hargaIkan*jumlahIkan).toLocaleString()}*`, m)
     delete conn.mancing[m.sender]
   }, 1000)
 }

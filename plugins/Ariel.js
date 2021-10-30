@@ -6,7 +6,7 @@ Dont Tag My Master..
 `.trim(), m)
     let mentionedJid = [m.sender]
 }
-handler.customPrefix = /@919539102851/i
+handler.customPrefix = /@6281293836868/i
 handler.command = new RegExp
 
 module.exports = handler
