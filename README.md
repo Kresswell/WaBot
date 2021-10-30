@@ -1,22 +1,20 @@
 
 <p align="center">
-	<img src="https://telegra.ph/file/fd4230902e75d397d8667.jpg" width="200" style="margin-left: auto;margin-right: auto;display: block;">
+	<img src="https://i.imgur.com/SiMhQ9z.jpg" width="200" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
-<h1 align="center">Eva</h1>
+<h1 align="center">𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮</h1>
 
-# notes!!
-
-
-* before you clone first delete the file [session.data.json](https://github.com/SudoAnirudh/E-V-A/blob/main/session.data.json)
+# Instruction!!
 
 
-## ERROR FIX IT YOURSELF
+* before you clone first delete the file [session.data.json](https://github.com/sonycovery/whatsapp-bot/blob/main/session.data.json)
+
 
 ## UPDATE!!
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SudoAnirudh/E-V-A)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/sonycovery/whatsapp-bot)
 
-[![My Bot OFF](https://img.shields.io/badge/MyBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](http://wa.me/13656503237?text=.menu)
+[![My Bot OFF](https://img.shields.io/badge/MyBot-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](http://wa.me/84812873922?text=.menu)
 **BOT ON**
 
 ## FOR WINDOWS/VPS/RDP USERS
@@ -27,7 +25,7 @@
 * Download & Instal ImageMagick [`Click here`](https://imagemagick.org/script/download.php)
 
 ```bash
-git clone https://github.com/SudoAnirudh/E-V-A
+git clone https://github.com/sonycovery/whatsapp-bot
 npm install
 npm update
 npm index
@@ -37,7 +35,7 @@ npm index
 
 ## FOR TERMUX USERS
 ```bash
-git clone https://github.com/SudoAnirudh/E-V-A
+git clone https://github.com/sonycovery/whatsapp-bot
 cd _E-V-A_
 npm i
 npm update
