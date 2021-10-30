@@ -16,7 +16,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
 ketik *${usedPrefix}menu* untuk melihat seluruh perintah`.trim(), watermark, 'Menu', `${usedPrefix}?`, 0, { contextInfo: { mentionedJid: [m.sender] } })
 }
 handler.help = ['join <chat.whatsapp.com>']
-handler.tags = ['']
+handler.tags = ['group']
 
 handler.command = /^join$/i
 
