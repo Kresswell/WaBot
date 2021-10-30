@@ -216,11 +216,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                   "rowId": `.? magicshell`
                 }, {
                   "title": "𝐍𝐮𝐥𝐢𝐬 & 𝐋𝐨𝐠𝐨",
-                  "description": "Text Maker Coammnds",
+                  "description": "Text Maker Commands",
                   "rowId": ".? nulis"
                 }, {
                   "title": "𝐃𝐨𝐰𝐧𝐥𝐨𝐚𝐝𝐞𝐫",
-                  "description": "Downloading Commnds",
+                  "description": "Downloading Commands",
                   "rowId": ".? downloader"
                 }, {
                   "title": "𝐓𝐨𝐨𝐥𝐬",
@@ -366,18 +366,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Kolkata').format('HH')
-  res = "Good Morning 🌄"
+  res = "Selamat Pagi 🌄"
   if (time >= 4) {
-    res = "Good Morning 🌞"
+    res = "Selamat Pagi 🌞"
   }
   if (time > 10) {
-    res = "Good Afternoon 🌅"
+    res = "Selamat Siang 🌅"
   }
   if (time >= 15) {
-    res = "Good Evening 🌆"
+    res = "Selamat Sore 🌆"
   }
   if (time >= 18) {
-    res = "Good Night 🌌"
+    res = "Selamat Malam 🌌"
   }
   return res
 }
