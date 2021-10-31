@@ -1,0 +1,15 @@
+prefix=/tmp/build_b4459fb1/vendor/imagemagick
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/ImageMagick-7
+includearchdir=/tmp/build_b4459fb1/vendor/imagemagick/include/ImageMagick-7
+libname=MagickCore-7.Q16HDRI
+moduledir=${exec_prefix}/lib/ImageMagick-7.0.5/modules-Q16HDRI
+ 
+Name: MagickCore
+Description: MagickCore - C API for ImageMagick (ABI Q16HDRI)
+URL: https://www.imagemagick.org
+Version: 7.0.5
+Cflags: -I${includearchdir} -I${includedir} -fopenmp -DMAGICKCORE_HDRI_ENABLE=1 -DMAGICKCORE_QUANTUM_DEPTH=16
+Libs: -L${libdir} -l${libname}
+Libs.private: -L${libdir} -l${libname}  -ljbig -llcms2 -ltiff -lfreetype  -ljpeg  -llqr-1 -lglib-2.0 -lpng16 -lz  -ldjvulibre    -lfontconfig -lfreetype  -lwmflite  -lXext -lXt   -lSM -lICE -lX11  -llzma -lbz2 -lIlmImf -lImath -lHalf -lIex -lIexMath -lIlmThread -lpthread    -lxml2  -lz  -lm -lgomp     -lm
