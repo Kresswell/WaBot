@@ -36,7 +36,7 @@ npm index
 ## FOR TERMUX USERS
 ```bash
 git clone https://github.com/sonycovery/whatsapp-bot
-cd _E-V-A_
+cd whatsapp-bot
 npm i
 npm update
 node .
