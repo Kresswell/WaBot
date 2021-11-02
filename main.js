@@ -41,7 +41,8 @@ global.db = new Low(
 )
 global.DATABASE = global.db // Backwards Compatibility
 
-global.conn = new WAConnection()
+global.conn = new WAConnection();
+conn.version = [3, 3234, 9];
 let authFile = `${opts._[0] || 'session'}.data.json`
 if (fs.existsSync(authFile)) conn.loadAuthInfo(authFile)
 if (opts['trace']) conn.logger.level = 'trace'
