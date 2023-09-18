@@ -1,5 +1,5 @@
 {
-  "name": "𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲",
+  "name": "Infinity Hackers",
   "version": "1.1.2",
   "description": "WhatsApp Bot",
   "main": "index.js",
@@ -14,17 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sonycovery/whatsapp-bot.git"
+    "url": "git+https://github.com/Kresswell/INFINITY-MD.git"
   },
   "keywords": [
     "whatsapp-bot"
   ],
-  "author": "SonyCovery",
+  "author": "Kresswell",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sonycovery/whatsapp-bot/issues"
+    "url": "https://github.com/Kresswell/INFINITY-MD/issues"
   },
-  "homepage": "https://github.com/sonycovery/",
+  "homepage": "https://github.com/Kresswell/",
   "dependencies": {
     "@adiwajshing/baileys": "^3.5.2",
     "awesome-phonenumber": "^2.54.0",
