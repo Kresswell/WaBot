@@ -1,4 +1,29 @@
 
+<div align="center">
+<h1><b>INFINITY HACK3RS KENYA</b></h1><br>
+ <div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Ribeye&size=50&pause=1000&color=F710B1&center=true&width=910&height=100&lines=I+Am+INFINITY-MD ;MULTI+DEVICE+WHATSAPP+BOT;CREATED+BY+💝KRESSWELL💝;PUBLIC+RELESE+DATE;COMING+SOON;LONG+LIVE+MASTER+KRESSWELL." alt="Typing SVG" /></a>
+<p align="center"><a href="https://github.com/Kresswell"><img title="Author" src="https://img.shields.io/badge/OWNER-KRESSWELL-blue.svg?color=54aeff&style=for-the-badge&logo=github" /></p><br>
+    
+
+**A WhatsApp User Bot Created By the Infinity Hackers Kenya Team.A lightweight But still under development javascript bot.👾**
+
+**⚠️ Note: This bot is not yet available for public Deploymens;**
+
+ ***Click to [FORK](https://github.com/Kresswell/INFINITY-MD/fork)***
+
+
+
+## ```SCAN QR CODE```
+[![SCAN QR](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Kresswell/INFINITY-MD)
+   
+## ```HEROKU DEPLOYMENT```
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Kresswell/INFINITY-MD)
+
+
+
+
 <p align="center">
 	<img src="https://i.imgur.com/SiMhQ9z.jpg" width="200" style="margin-left: auto;margin-right: auto;display: block;">
 </p>
