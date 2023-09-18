@@ -158,7 +158,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
         "listMessage": {
           "title": `${ucapan()}, ${name}`.trim(),
-          "description": "𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮",
+          "description": "ɪɴғɪɴɪᴛʏ ʜᴀᴄᴋᴇʀs ᴋᴇɴʏᴀ",
           "buttonText": "𝐂𝐥𝐢𝐜𝐤 𝐇𝐞𝐫𝐞",
           "listType": "SINGLE_SELECT",
           "sections": [
@@ -259,7 +259,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     }
     // use this if you use business whatsapp
     //   throw `
-    // ┌〔 LIST MENU 〕
+    // ┌〔 ɪɴғɪɴɪᴛʏ ᴍᴅ ᴍᴇɴᴜ 〕
     // ├ ${_p + command} all
     // ├ ${_p + command} game
     // ├ ${_p + command} xp
@@ -332,7 +332,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
       readmore: readMore
     }
     text = text.replace(new RegExp(`%(${Object.keys(replace).sort((a, b) => b.length - a.length).join`|`})`, 'g'), (_, name) => '' + replace[name])
-    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/SiMhQ9z.jpg")).buffer(), text.trim(), '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮', '𝐎𝐰𝐧𝐞𝐫 𝐁𝐨𝐭', ',owner', '𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬', '.? all', m)
+    await conn.send2ButtonLoc(m.chat, await (await fetch("https://i.imgur.com/bADytE5.jpeg")).buffer(), text.trim(), 'ɪɴғɪɴɪᴛʏ ʜᴀᴄᴋᴇʀs ᴋᴇɴʏᴀ', 'ʙᴏᴛ ᴏᴡɴᴇʀ', ',owner', '𝐀𝐥𝐥 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬', '.? all', m)
   } catch (e) {
     conn.reply(m.chat, 'Sorry, Try Again', m)
     throw e
