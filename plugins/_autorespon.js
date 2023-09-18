@@ -15,7 +15,7 @@ handler.all = async function (m, { isBlocked }) {
         if (m.mentionedJid.includes(this.user.jid) && m.isGroup) {
             await this.send2Button(m.chat,
                 isBanned ? 'Bot is not active' : banned ? 'you are banned' : 'Bot here',
-                '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮',
+                '𝙸𝚗𝚏𝚒𝚗𝚒𝚝𝚢 𝙼𝙳 𝚑𝚎𝚛𝚎',
                 isBanned ? 'Unban' : banned ? 'Bot Owner' : 'Menu',
                 isBanned ? '.unban' : banned ? '.owner' : '.?',
                 m.isGroup ? 'Ban' : isBanned ? 'Unban' : 'Support',
@@ -32,8 +32,8 @@ handler.all = async function (m, { isBlocked }) {
 ├ 
 └────
 
-https://github.com/sonycovery/whatsapp-bot
-`.trim(), '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮', 'Bot Owner', ',owner', m)
+https://github.com/Kresswell/INFINITY-MD
+`.trim(), '𝙸𝚗𝚏𝚒𝚗𝚒𝚝𝚢 𝙼𝙳', 'Bot Owner', ',owner', m)
     }
 
 
@@ -57,7 +57,7 @@ https://github.com/sonycovery/whatsapp-bot
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`𝐔𝐩𝐭𝐢𝐦𝐞 ${uptime} | 𝐌𝐨𝐝𝐞: ${global.opts['𝐒𝐞𝐥𝐟'] ? '𝐏𝐫𝐢𝐯𝐚𝐭𝐞' : setting.groupOnly ? '𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲' : '𝐏𝐮𝐛𝐥𝐢𝐜'} | 𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮`).catch(_ => _)
+        await this.setStatus(`𝐔𝐩𝐭𝐢𝐦𝐞 ${uptime} | 𝐌𝐨𝐝𝐞: ${global.opts['𝐒𝐞𝐥𝐟'] ? '𝐏𝐫𝐢𝐯𝐚𝐭𝐞' : setting.groupOnly ? '𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲' : '𝐏𝐮𝐛𝐥𝐢𝐜'} | 𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝘆 𝗠𝗗`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
