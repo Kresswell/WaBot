@@ -1,5 +1,5 @@
 let fs = require('fs')
-global.owner = ['6281293836868'] // Letakan nomor kamu disini
+global.owner = ['254768153167'] // Letakan nomor kamu disini
 global.mods = [] // Moderator?
 global.prems = JSON.parse(fs.readFileSync('./src/premium.json')) // Pengguna premium tidak memerlukan limit
 global.APIs = { // API Prefix
@@ -31,16 +31,16 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮'
-global.author = '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮'
+global.packname = 'INFINITY'
+global.author = 'HACKERS'
 
 global.wait = '_𝐖𝐚𝐢𝐭 𝐚 𝐦𝐢𝐧𝐮𝐭𝐞 ⏳_'
 global.eror = '_*𝐒𝐞𝐫𝐯𝐞𝐫 𝐄𝐫𝐫𝐨𝐫*_'
 global.fla = 'https://i.imgur.com/SiMhQ9z.jpg'
 
-global.watermark = '𝐒𝐨𝐧𝐲 𝐂𝐨𝐯𝐞𝐫𝐲 🎮'
+global.watermark = 'INFINITY HACK3RS KENYA'
 
-global.multiplier = 69 // Semakin tinggi, semakin sulit naik level
+global.multiplier = 64 // Semakin tinggi, semakin sulit naik level
 
 let chalk = require('chalk')
 let file = require.resolve(__filename)
