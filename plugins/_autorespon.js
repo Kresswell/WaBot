@@ -57,7 +57,7 @@ https://github.com/Kresswell/INFINITY-MD
     if (new Date() * 1 - setting.status > 1000) {
         let _uptime = process.uptime() * 1000
         let uptime = clockString(_uptime)
-        await this.setStatus(`𝐔𝐩𝐭𝐢𝐦𝐞 ${uptime} | 𝐌𝐨𝐝𝐞: ${global.opts['𝐒𝐞𝐥𝐟'] ? '𝐏𝐫𝐢𝐯𝐚𝐭𝐞' : setting.groupOnly ? '𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲' : '𝐏𝐮𝐛𝐥𝐢𝐜'} | 𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝘆 𝗠𝗗`).catch(_ => _)
+        await this.setStatus(`𝐔𝐩𝐭𝐢𝐦𝐞 ${uptime} | 𝐌𝐨𝐝𝐞: ${global.opts['𝐒𝐞𝐥𝐟'] ? '𝐏𝐫𝐢𝐯𝐚𝐭𝐞' : setting.groupOnly ? '𝐆𝐫𝐨𝐮𝐩 𝐎𝐧𝐥𝐲' : '𝐏𝐮𝐛𝐥𝐢𝐜'} | '𝗜𝗻𝗳𝗶𝗻𝗶𝘁𝘆 𝗠𝗗`).catch(_ => _)
         setting.status = new Date() * 1
     }
 
